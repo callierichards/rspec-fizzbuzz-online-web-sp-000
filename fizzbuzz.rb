@@ -6,6 +6,7 @@ def fizzbuzz(int)
     case
     if divisibleby3 && divisibleby5
     else "FizzBuzz"
+    end
     when divisibleby3
       return "Fizz"
     when divisibleby5
