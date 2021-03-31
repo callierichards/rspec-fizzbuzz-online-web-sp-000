@@ -4,8 +4,8 @@ def fizzbuzz(int)
   divisibleby3 = (int % 3 == 0)
   divisibleby5 = (int % 5 == 0)
     case
-    when divisibleby3 && divisibleby5
-      return "FizzBuzz"
+    if divisibleby3 && divisibleby5
+    else "FizzBuzz"
     when divisibleby3
       return "Fizz"
     when divisibleby5
